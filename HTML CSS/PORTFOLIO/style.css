@@ -13,8 +13,8 @@ h3 {
     background-color:rgb(237, 216, 132);
     display: flex;
     position: fixed;
-    width: 100px;
-    padding:8px;
+    width: 100%;
+    padding: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
     height: 10px;
@@ -48,12 +48,12 @@ h3 {
     text-align: center;
 }
 .div-img{
-    position: absolute;
-    top: 5%;
+    position:relative;
+    top: 300px;
     left: 45%;
-    border: 3px;
-    width: 200px;
-    height: 100px;
+    border: 1px;
+    width: 150px;
+    height: 50px;
 } 
 .texto-1{
     padding:32px; 
@@ -86,8 +86,8 @@ h3 {
 }
 .subcontainer-pincipal-3{
     display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
+    flex-direction:column-reverse;
+    justify-content:center;
 }
 .subcontainer-principal li>a{
     font-size: 18px;
@@ -108,14 +108,14 @@ h3 {
     width: 100px;
 }
 .lista-footer{
-    color:green;
-    font-weight: 700;
+    color: orangered;
+    font-weight: 700px;
     font-size: 18px;
-    display:flex;
-    align-items: center;
+    display:inline-table;
+    align-items:end;
     margin: auto;
 }
 .estilo-icon{
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 10px;
 }
